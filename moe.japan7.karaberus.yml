@@ -25,6 +25,9 @@ modules:
       - ar -x *.deb
       - tar -xf data.tar.gz
       - install -Dm755 usr/bin/app /app/bin/app
+      - install -Dm644 usr/share/icons/hicolor/128x128/apps/app.png /app/share/icons/hicolor/128x128/apps/moe.japan7.karaberus.png
+      - install -Dm644 usr/share/icons/hicolor/32x32/apps/app.png /app/share/icons/hicolor/32x32/apps/moe.japan7.karaberus.png
+      - install -Dm644 usr/share/icons/hicolor/256x256@2/apps/app.png /app/share/icons/hicolor/256x256@2/apps/moe.japan7.karaberus.png
 
   - name: additional-files
     buildsystem: simple
@@ -34,5 +37,4 @@ modules:
     build-commands:
       - install -Dm555 mpv /app/bin/mpv
       - install -Dm644 moe.japan7.karaberus.desktop /app/share/applications/moe.japan7.karaberus.desktop
-      - install -Dm644 moe.japan7.karaberus.png /app/share/icons/hicolor/128x128/apps/moe.japan7.karaberus.png
       - install -Dm644 moe.japan7.karaberus.metainfo.xml /app/share/metainfo/moe.japan7.karaberus.metainfo.xml
