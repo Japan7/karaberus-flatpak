@@ -5,6 +5,7 @@ Type=Application
 Terminal=false
 Exec=/app/bin/app %u
 Name=karaberus
+Icon=moe.japan7.karaberus
 Comment=A karaoke database server
 Categories=Application;Video;
 MimeType=x-scheme-handler/karaberus;
