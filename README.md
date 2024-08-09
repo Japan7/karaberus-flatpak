@@ -10,5 +10,5 @@ flatpak --user update --appstream karaberus
 ## Install karaberus
 
 ```
-flatpak --user install karaberus moe.japan7.karaberus
+flatpak --user install moe.japan7.karaberus
 ```
