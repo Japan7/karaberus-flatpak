@@ -1,0 +1,4 @@
+#!/bin/sh
+
+export KARABERUS_MPV_SOCKET=$XDG_RUNTIME_DIR/app/moe.japan7.karaberus/karaberus-mpv.sock
+exec app

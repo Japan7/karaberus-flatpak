@@ -4,7 +4,7 @@ runtime: org.gnome.Platform
 runtime-version: '46'
 sdk: org.gnome.Sdk
 
-command: app
+command: karaberus-wrapper
 finish-args:
   - --socket=wayland
   - --socket=fallback-x11
@@ -36,5 +36,6 @@ modules:
         path: .
     build-commands:
       - install -Dm555 mpv /app/bin/mpv
+      - install -Dm555 karaberus-wrapper /app/bin/karaberus-wrapper
       - install -Dm644 moe.japan7.karaberus.desktop /app/share/applications/moe.japan7.karaberus.desktop
       - install -Dm644 moe.japan7.karaberus.metainfo.xml /app/share/metainfo/moe.japan7.karaberus.metainfo.xml
