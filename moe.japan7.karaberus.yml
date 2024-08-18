@@ -1,9 +1,7 @@
 id: moe.japan7.karaberus
-
 runtime: org.gnome.Platform
 runtime-version: '46'
 sdk: org.gnome.Sdk
-
 command: karaberus-wrapper
 finish-args:
   - --socket=wayland
@@ -12,14 +10,13 @@ finish-args:
   - --share=ipc
   - --share=network
   - --talk-name=org.freedesktop.Flatpak
-
 modules:
   - name: binary
     buildsystem: simple
     sources:
       - type: file
-        url: https://github.com/Japan7/karaberus/releases/download/app-v0.2.0/karaberus_0.2.0_amd64.deb
-        sha256: 8cebcb9bd0c780a3951fc3c28e729d34ea2467c93ce9b1ac0d268022ca82f5b3
+        url: https://github.com/Japan7/karaberus/releases/download/app-v0.3.0/karaberus_0.3.0_amd64.deb
+        sha256: 0e8a1700f34e0f7ffac2e8dff27e3f9b82c1a3718f2227dafce9a145eee65d66
         only-arches: [x86_64]
     build-commands:
       - ar -x *.deb
@@ -28,7 +25,6 @@ modules:
       - install -Dm644 usr/share/icons/hicolor/128x128/apps/app.png /app/share/icons/hicolor/128x128/apps/moe.japan7.karaberus.png
       - install -Dm644 usr/share/icons/hicolor/32x32/apps/app.png /app/share/icons/hicolor/32x32/apps/moe.japan7.karaberus.png
       - install -Dm644 usr/share/icons/hicolor/256x256@2/apps/app.png /app/share/icons/hicolor/256x256@2/apps/moe.japan7.karaberus.png
-
   - name: additional-files
     buildsystem: simple
     sources:

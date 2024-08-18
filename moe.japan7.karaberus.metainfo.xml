@@ -1,22 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="desktop-application">
   <id>moe.japan7.karaberus</id>
-  
   <name>karaberus</name>
   <summary>A karaoke database server</summary>
-  
   <metadata_license>MIT</metadata_license>
   <project_license>AGPL-3.0-or-later</project_license>
-  
   <description>
-    <p>
-      A karaoke database server
-    </p>
+    <p>A karaoke database server</p>
   </description>
-  
   <launchable type="desktop-id">moe.japan7.karaberus.desktop</launchable>
-
   <releases>
+    <release version="0.3.0" date="2024-08-18">
+      <url type="details">https://github.com/Japan7/karaberus/releases/tag/app-v0.3.0</url>
+    </release>
     <release version="0.2.0" date="2024-08-08">
       <url type="details">https://github.com/Japan7/karaberus/releases/tag/app-v0.2.0</url>
     </release>
