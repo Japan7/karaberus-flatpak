@@ -10,6 +10,9 @@
   </description>
   <launchable type="desktop-id">moe.japan7.karaberus.desktop</launchable>
   <releases>
+    <release version="0.3.5" date="2024-09-04">
+      <url type="details">https://github.com/Japan7/karaberus/releases/tag/app-v0.3.5</url>
+    </release>
     <release version="0.3.4" date="2024-08-24">
       <url type="details">https://github.com/Japan7/karaberus/releases/tag/app-v0.3.4</url>
     </release>
