@@ -15,8 +15,8 @@ modules:
     buildsystem: simple
     sources:
       - type: file
-        url: https://github.com/Japan7/karaberus/releases/download/app-v0.4.0/karaberus_0.4.0_amd64.deb
-        sha256: ccd0e95f13b46f26fef3c35750c53f56790220e2fff836031c225afbc561385f
+        url: https://github.com/Japan7/karaberus/releases/download/app-v0.5.0/karaberus_0.5.0_amd64.deb
+        sha256: e9d8b1078de8bae2e2652b9b571047680091b479a00fbed1578fc0ec8185ffab
         only-arches: [x86_64]
     build-commands:
       - ar -x *.deb
