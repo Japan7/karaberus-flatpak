@@ -1,6 +1,6 @@
 id: moe.japan7.karaberus
 runtime: org.gnome.Platform
-runtime-version: '46'
+runtime-version: '48'
 sdk: org.gnome.Sdk
 command: karaberus-wrapper
 finish-args:
